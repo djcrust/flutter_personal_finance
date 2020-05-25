@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_money_management_app/screens/budgetlist.dart';
-import 'package:my_money_management_app/screens/categorylist.dart';
-import 'package:my_money_management_app/screens/expense_list.dart';
+import 'package:my_money_management_app/screens/budget/budget_list.dart';
+import 'package:my_money_management_app/screens/category/category_list.dart';
+import 'package:my_money_management_app/screens/expense/expense_list.dart';
 import 'package:my_money_management_app/screens/overview.dart';
 import 'package:my_money_management_app/widget/drawer.dart';
 

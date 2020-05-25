@@ -4,7 +4,7 @@ import 'screens/loginpage.dart';
 import 'screens/signuppage.dart';
 import 'screens/homepage.dart';
 import 'screens/about.dart';
-import 'screens/categorylist.dart';
+import 'screens/category/category_list.dart';
 import 'services/conneixon_set.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         '/singup': (BuildContext context) => new SignupPage(),
         '/homepage': (BuildContext context) => new HomePage(),
         '/aboutpage': (BuildContext context) => new AboutPage(),
-        '/categorylist': (BuildContext context) => new CategoryPage(),
+        '/category_list': (BuildContext context) => new CategoryPage(),
       },
     );
   }

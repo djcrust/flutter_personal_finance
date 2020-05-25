@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_money_management_app/widget/drawer.dart';
 
 class BudgetPage extends StatefulWidget {
   @override
@@ -8,6 +9,12 @@ class BudgetPage extends StatefulWidget {
 class _BudgetPageState extends State<BudgetPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return new Scaffold(
+      appBar: AppBar(
+        title: Text("Define a budget"),
+        centerTitle: true,
+      ),
+      drawer: buildDrawer(context),
+    );
   }
 }
